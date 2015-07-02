@@ -56,7 +56,7 @@ public class MainScreen extends Activity {
 
 				Intent intent;
 				if (position== 0) {
-					intent = new Intent(MainScreen.this, MainloginScreen.class);
+					intent = new Intent(MainScreen.this, MainActivity.class);
 					intent.putExtra("id", position);
 					startActivity(intent);
 				} else {

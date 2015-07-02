@@ -67,7 +67,7 @@ public class LoginActivity extends Activity {
 						session.createLoginSession("Android Hive", "anroidhive@gmail.com");
 						
 						// Staring MainActivity
-						Intent i = new Intent(getApplicationContext(), MainloginScreen.class);
+						Intent i = new Intent(getApplicationContext(), MainActivity.class);
 						startActivity(i);
 						finish();
 						

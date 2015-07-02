@@ -14,7 +14,7 @@ import com.iStore.sampleapplication.R;
 import com.iStore.sampleapplication.activity.manager.AlertDialogManager;
 import com.iStore.sampleapplication.activity.manager.SessionManager;
 
-public class MainloginScreen extends Activity {
+public class MainActivity extends Activity {
 
 	AlertDialogManager alert = new AlertDialogManager();
 
@@ -60,7 +60,7 @@ public class MainloginScreen extends Activity {
 					// Clear the session data
 					// This will clear all session data and 
 					// redirect user to LoginActivity
-					session.logOutUser();
+					session.logoutUser();
 				}
 			});
 	    }
